@@ -313,9 +313,6 @@
           return position.$element;
         });
         $elements = (((ref1 = this.settings.callbacks) != null ? ref1.optimize : void 0) || this.optimize)($elements);
-        for (i = k = 0, ref2 = $elements.length; (0 <= ref2 ? k < ref2 : k > ref2); i = 0 <= ref2 ? ++k : --k) {
-          this.reordinalize($($elements[i]), i);
-        }
         return this.layout();
       }
 
